@@ -1,0 +1,19 @@
+name: Publish Tech Docs - Prod
+
+on: 
+  push:
+    branches:
+      - "master"
+      - "develop"
+    paths:
+      - 'docs/**.md'
+      - '**.yaml'
+      - '**.yml'
+      - '!.github/workflows/*'
+      
+  workflow_dispatch:
+  
+jobs:
+  publish-tech-docs-prod:
+    uses: Toyota-Motor-North-America/chofer-pipelines-workflows/.github/workflows/deploy-tech-docs-prod.yml@release/1.0
+    secrets: inherit

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "new"
+  description: "new"
+  annotations:
+    github.com/project-slug: jobinsraj-poc/new
+    backstage.io/techdocs-ref: url:https://github.com/jobinsraj-poc/new
+spec:
+  type: Reference Architecture
+  lifecycle: experimental
+  owner: "jobinsraj-poc"
