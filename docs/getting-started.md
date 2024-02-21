@@ -22,9 +22,3 @@ pages, or include links to other sites.
 Note that MkDocs uses `mkdocs.yml`, not `mkdocs.yaml`, although both appear to work.
 See also <https://www.mkdocs.org/user-guide/configuration/>.
 
-## Support
-
-Here are some good examples on how to document things using the techdocs:
-* [ACE-TECH-DOCS](https://github.com/Toyota-Motor-North-America/ace-tech-docs)
-* [ACE-FAQ](https://github.com/Toyota-Motor-North-America/ace-self-service-faq/)
-That's it. If you need support, reach out [ACE team](mailto:Advanced_CLoud_Engineering@toyota.com).
