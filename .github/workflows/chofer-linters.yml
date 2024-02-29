@@ -1,6 +1,6 @@
 name: chofer-linters
 on:
-  workflow_call:
+  push:
     inputs:
       ENABLE_LINTERS: #Input to decide which linter needs to be run
         description: "Comma Separated List of Linters.If ENABLE_LINTERS is set, only listed linters will be processed."
