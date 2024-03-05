@@ -13,7 +13,6 @@ jobs:
       - name: Install MegaLinter
         uses: oxsecurity/megalinter@v7
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ENABLE_LINTERS: MARKDOWN_MARKDOWN_LINK_CHECK
 
       - name: Run MegaLinter
