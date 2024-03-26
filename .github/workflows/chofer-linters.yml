@@ -1,11 +1,13 @@
 name: Markdown Link Check
 on:
-  pull_request:
-    branches: ["master", "main", "develop"]
+  # pull_request:
+  #   branches: ["master", "main", "develop"]
+  push:
+  
 jobs:
   chofer-linters:
     name: "code linting"
-    uses: Toyota-Motor-North-America/chofer-actions/.github/workflows/chofer-linters.yml@feature/CDX-9780-markdown-link-check-action
+    uses: jobinsraj-poc/actions/.github/workflows/linters.yml@v1
     with:
       ENABLE_LINTERS: 'MARKDOWN_MARKDOWN_LINK_CHECK'
     secrets: inherit
