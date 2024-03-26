@@ -2,8 +2,9 @@ name: Markdown Link Check
 on:
   # pull_request:
   #   branches: ["master", "main", "develop"]
-  push:
   
+  push:
+
 jobs:
   chofer-linters:
     name: "code linting"
