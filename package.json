@@ -1,0 +1,22 @@
+{
+  "name": "actions",
+  "version": "1.0.0",
+  "description": "1.  [Introduction](#introduction)\r 2.  [Getting Started](#getting-started)\r 3.  [Software Installation](#software-installation)\r 4.  [Running Chofer locally](#running-chofer-locally)\r 5.  [Current Software Versions](#current-software-versions)\r 6.  [Infrastructure automation](#infrastructure-automation)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobinsraj-poc/actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobinsraj-poc/actions/issues"
+  },
+  "homepage": "https://github.com/jobinsraj-poc/actions#readme",
+  "devDependencies": {
+    "mega-linter-runner": "^7.10.0"
+  }
+}
