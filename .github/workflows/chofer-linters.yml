@@ -2,13 +2,13 @@ name: Markdown Link Check
 on:
   # pull_request:
   #   branches: ["master", "main", "develop"]
-  
+
   push:
 
 jobs:
   chofer-linters:
     name: "code linting"
-    uses: jobinsraj-poc/actions/.github/workflows/linters.yml@v1
+    uses: jobinsraj-poc/actions/.github/workflows/linters.yml@master
     with:
       ENABLE_LINTERS: 'MARKDOWN_MARKDOWN_LINK_CHECK'
     secrets: inherit
